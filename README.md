@@ -95,10 +95,3 @@ Brief: Tesla has announced the release of the updated Model X, featuring an impr
 - The script is set up to monitor Tesla Inc. by default, but you can change the `STOCK` and `COMPANY_NAME` variables to monitor other stocks.
 - Be sure to check your Twilio account limits, as message sending can incur costs if limits are exceeded.
 
-## License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
----
-
-Feel free to customize and modify the README based on your specific project or requirements!
