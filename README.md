@@ -1,6 +1,7 @@
 Stock Alert & News Notification System
 
 This Python project is designed to monitor stock price changes for Tesla Inc. (or any other stock) and send notifications via WhatsApp using Twilio's API. If the stock price fluctuates by more than 5% compared to the previous day's close, it retrieves the top 3 news articles related to Tesla Inc. from the NewsAPI and sends a WhatsApp message summarizing the stock change and related news.
+
 Features
 
     Monitors daily stock price fluctuations using Alpha Vantage API.
@@ -31,7 +32,6 @@ Environment Variables
 
 Create a .env file in the root of the project and add the following environment variables:
 
-plaintext
 
 STOCK_API_KEY=your_alpha_vantage_api_key
 NEWS_API_KEY=your_newsapi_key
